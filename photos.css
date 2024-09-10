@@ -1,0 +1,38 @@
+/* mobile first view */
+#row {
+   display: flex; 
+   flex-wrap: wrap;
+   padding: 0 12px;
+   vertical-align: middle;
+}
+
+.colum {
+    margin-top: 0;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.colum img {
+    padding: 10px;
+    width: 100%;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .colum {
+        max-width: 50%;
+        padding: 0 6px;
+    }
+
+    #Row {
+        padding: 0 6px;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .colum {
+        max-width: 25%;
+    }
+}

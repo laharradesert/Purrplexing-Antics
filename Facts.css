@@ -1,0 +1,40 @@
+main > div {
+    background-color: #FF70AB;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+main > div > h2 {
+    font-size: 22px;
+    font-weight: normal;
+    text-align: center;
+}
+
+main > div > p {
+  font-size: 18px;  
+}
+
+main {
+    background-color: #C3FF93;
+    display: table;
+ padding: 20px;
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #container2 {
+        grid-area: area2;
+    }
+    #container3 {
+        grid-area: area3;
+    }
+
+  main { 
+    grid-template-areas:
+   ". area3."
+   "area2 area3."
+   "area2 area3.";
+}

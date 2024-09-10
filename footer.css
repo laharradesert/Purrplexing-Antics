@@ -1,0 +1,25 @@
+footer {
+    background-color: #C3FF93;
+    padding: 10px 0 4px 0;
+   text-align: center;
+   width: 100%;
+}
+
+footer a{
+    color: black;
+    style="display:inline-block;"
+    padding: 8px;
+    text-decoration:none;
+}
+
+footer A: :hover {
+   color:#F5004F;
+   background-color: #C3FF93;
+   outline: none;
+}
+
+footer img {
+  style="height:22px; 
+  margin-left: 3px; 
+  vertical-align: bottom ;" 
+}

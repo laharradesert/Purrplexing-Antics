@@ -1,0 +1,65 @@
+/* mobile first view */
+
+h2 {
+   display: none; 
+}
+
+aside {
+background-color: ;
+font-size: 120%;
+padding: 5px 0;
+text-align: center;
+width: 100%;
+}
+
+aside a {
+    color: #f38b23;
+    display: block;
+    padding: 5px 0;
+    text-decoration: none;
+    width: 100%;
+}
+
+aside a :hover {
+background-color: #7C00FE;
+color: black;
+}
+
+aside a :focus {
+    background-color: #7C00FE;
+    color: #FFAF61;
+    outline: none;
+    }
+
+#main_image {
+    width: 100%;
+}
+
+article {
+    background-color: #FF70AB;
+    color: #ffffff;
+    font-size: 120%;
+    padding: 0 10px;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  main {
+    display: flex;
+  }
+  
+  aside {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    justify-content: center;
+    width: 30%;
+  }
+
+  section {
+    display: inline;
+    float: right;
+    width: 70%;
+  }
+}
