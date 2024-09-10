@@ -25,7 +25,7 @@
     
     <!-- Navigation menu -->
     <nav>
-      <a href="Index.html" class="active_nav">Home</a>
+      <a href="index.html" class="active_nav">Home</a>
       <a href="Photos.html">Photos</a>
       <a href="Facts.html">Facts</a>
       <a href="Gustuv.html">Gustuv The Cat</a>
@@ -45,7 +45,18 @@
           <h2>Cats in business suites</h2>
 
         <!-- Responsive image with different resolutions for different screen sizes -->
-          <img src="Images/Purrplexing Antics Title Image.png" alt="Awful Photoshop of cats"  title="Purrplexing Antics" />
+           <img id="main_image" srcset="Images/480w/Purrplexing Antics Title Image.png 480w,
+           Images/960w/Purrplexing Antics Title Image.png 960w,
+           Images/1920w/Purrplexing Antics Title Image.png 1920w,
+           Images/3840w/Purrplexing Antics Title Image.png 3840w,
+           Images/7680w/Purrplexing Antics Title Image.png 7680w" 
+             sizes="(max-width: 480px) 480px,
+             (max-width: 960px) 960px,
+             (max-width: 1920px) 1920px,
+             (max-width: 3840px) 3840px,
+             7680px" src="Images/Purrplexing Antics Title Image.png"
+             alt="Awful Photoshop of cats."
+             title="Purrplexing Antics" />
 
              <!-- Article with text content -->
                <article>
